@@ -1,0 +1,33 @@
+:root {
+  /* color variables */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: .9fr 4fr;
+  width: 100%;
+  min-height: 100vh;
+  /* border: 10px solid black; */
+}
+
+.sidebar {
+  background-color: rgb(155, 155, 243);
+  grid-area: 1/ 1 / 3 / 2
+}
+
+.header {
+  background-color: pink;
+  grid-area: 1/ 2/ 2/ 3;
+  height: 18vh;
+}
+
+.main-content {
+  background-color: rgb(251, 251, 180);
+  height: 82vh;
+}
