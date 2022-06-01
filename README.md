@@ -1,5 +1,7 @@
 # admin-dashboard
  An admin dashboard made with CSS grid.
+ 
+Live demo: https://kmitova.github.io/admin-dashboard/
 
 Desktop view:
 
