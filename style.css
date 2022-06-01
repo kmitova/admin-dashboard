@@ -191,6 +191,7 @@ h3 {
   padding: 1em;
 }
 
+
 /* VARIOUS MEDIA QUERIES */
 
 @media screen and (min-width: 900px) {
@@ -237,4 +238,5 @@ h3 {
   .header {
     overflow-y: hidden;
   }
+
 }
